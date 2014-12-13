@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.golfapp.vistex.MainActivity"
+    tools:ignore="MergeRootFrame" 
+    
+    >
+
+       <com.golfapp.vistex.TransparentPanel
+           android:id="@+id/transparent_signin"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="150dp"
+           android:paddingBottom="5dp"
+           android:paddingLeft="5dp"
+           android:paddingRight="5dp"
+           android:paddingTop="5dp" >
+
+           <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical" >
+                <EditText
+               android:id="@+id/ETname"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+               android:ems="10"
+               android:hint="@string/name"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:inputType="textPersonName" >
+
+               <requestFocus />
+           </EditText>
+            <EditText
+            android:id="@+id/ETemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:hint="@string/email"
+            android:layout_gravity="center"
+            
+            android:gravity="center"
+            android:ems="10"
+           
+            android:inputType="textEmailAddress" />
+             <Button
+           android:id="@+id/btnsignin"
+           
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           
+           
+           android:layout_marginTop="40dp"
+           android:text="@string/btnsign" 
+           android:layout_gravity="center"
+           android:background="@drawable/btn_blue"
+           />
+           </LinearLayout>
+
+          
+
+       </com.golfapp.vistex.TransparentPanel>
+    
+   </RelativeLayout>
+
+
+

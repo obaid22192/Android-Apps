@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">vistex</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- sign in page strings starts-->
+    
+    <string name="signinheading">Vistex Golf App</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="btnsign">Sign in </string>
+    <string name="btnstat">My Stats </string>
+    
+    <!-- sign in page strings end  -->
+    
+    
+    
+     <!-- Coursesearch strings start  -->
+      <string name="GCS">General Course Search</string>
+      <string name="btnhome">Home</string>
+    
+      <!-- coursesearch strings end  -->
+      
+      
+    <string name="get_location">Get Location</string>
+    <string name="disconnect">Disconnect Service</string>
+    <string name="connect">Connect Service</string>
+      
+    
+     <string name="editText_Email_Hint">Enter Email</string>
+    <string name="btn_CreatePlayer_Text">Create Player</string>
+    <string name="textView_CreatePlayerTitle_Text">Create Player</string>
+    <string name="btn_addPlayer_Text">Add Player</string>
+    <string name="spinnerSelectHole_Hint">Select Hole</string>
+    <string name="spinnerSelHole_Hint">Select hole</string>
+    <string name="spinnerSelPlayer_Hint">Select Player</string>
+    <string name="spinnerSelScore_Hint">Select Score</string>
+    <string name="btn_ShareResults_Text">Share Results</string>
+    <string name="textview_SelectHole_label">Select Hole</string>
+    <string name="textView_SelectPlayer_Label">Select Player</string>
+    <string name="textView_SelectScoreLabel">Select Score</string>
+
+</resources>

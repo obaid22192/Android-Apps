@@ -1,0 +1,211 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimage"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pizzaorder.MainActivity$PlaceholderFragment" >
+
+    <com.example.pizzaorder.TransparentPanel
+        android:id="@+id/transparent_panelshape"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                 android:textColor="#ffff"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@string/idchees"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                     android:textColor="#ffff"
+                    android:text="@string/chees" />
+
+                <RadioButton
+                    android:id="@string/idcheesx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:textColor="#ffff"
+                    android:text="@string/cheesx" />
+
+                <RadioButton
+                    android:id="@string/idnone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:textColor="#ffff"
+                    android:text="@string/none" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@string/idtvshape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                 android:textColor="#ffff"
+                android:text="@string/tvchooseshape"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                 android:textColor="#ffff"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@string/idrbsquare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                     android:textColor="#ffff"
+                    android:text="@string/square" />
+
+                <RadioButton
+                    android:id="@string/idrbround"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:textColor="#ffff"
+                    android:text="@string/round" />
+            </RadioGroup>
+        </LinearLayout>
+    </com.example.pizzaorder.TransparentPanel>
+
+    <com.example.pizzaorder.TransparentPanel
+        android:id="@+id/transparent_paneltopping"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/transparent_panelshape"
+        android:layout_centerInParent="false"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" >
+
+        <ScrollView
+            android:id="@string/idscroolview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@string/idtvtopping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvtoppings"
+                     android:textColor="#ffff"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <CheckBox
+                    android:id="@string/idpepperoni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                     android:textColor="#ffff"
+                    android:text="@string/pepperoni" />
+
+                <CheckBox
+                    android:id="@string/idmush"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                     android:textColor="#ffff"
+                    android:text="@string/Mush" />
+
+                <CheckBox
+                    android:id="@string/idvegg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:textColor="#ffff"
+                    android:text="@string/vegg" />
+
+                <CheckBox
+                    android:id="@string/idanch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                     android:textColor="#ffff"
+                    android:text="@string/anch" />
+
+                <CheckBox
+                    android:id="@string/idham"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                     android:textColor="#ffff"
+                    android:text="@string/ham" />
+
+                <CheckBox
+                    android:id="@string/idgrill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:textColor="#ffff"
+                    android:text="@string/grill" />
+
+                <CheckBox
+                    android:id="@string/iditalian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:textColor="#ffff"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/italian" />
+
+                <CheckBox
+                    android:id="@string/idblackol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                     android:textColor="#ffff"
+                    android:text="@string/blackol" />
+
+                <CheckBox
+                    android:id="@string/idgreen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:textColor="#ffff"
+                    android:text="@string/green" />
+            </LinearLayout>
+        </ScrollView>
+    </com.example.pizzaorder.TransparentPanel>
+
+  <Button
+        android:id="@string/idplaceorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+      android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:layout_below="@+id/transparent_paneltopping"
+        android:text="@string/Checkout" />
+
+    
+
+</RelativeLayout>

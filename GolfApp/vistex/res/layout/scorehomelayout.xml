@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/screentitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Score Home"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_action_bar_title_text_size"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/EnterScores"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp"
+        android:text="Enter Score" />
+
+    <Button
+        android:id="@+id/btn_addPlayer"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_addPlayer_Text" />
+
+    <Button
+        android:id="@+id/btn_ShareResults"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_ShareResults_Text" />
+  
+</LinearLayout>
+    
+

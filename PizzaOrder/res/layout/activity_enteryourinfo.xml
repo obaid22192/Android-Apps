@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/bgimage"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pizzaorder.MainActivity$PlaceholderFragment" 
+  
+    >
+   
+       <com.example.pizzaorder.TransparentPanel
+
+        android:id="@+id/transparent_panepersonalinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:layout_centerInParent="true"
+        >
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:orientation="vertical" >
+               <EditText
+            android:id="@+id/edname"
+            android:hint="@string/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:inputType="textPersonName" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/ednumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/number"
+            android:layout_weight="1"
+            android:ems="10"
+             android:textColor="#ffff"
+            android:layout_marginTop="10dp"
+            android:inputType="number" />
+
+        <Button
+            android:id="@string/idbtnnext"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/next"
+             android:background="@drawable/shape" />
+
+        
+
+           </LinearLayout>
+
+    </com.example.pizzaorder.TransparentPanel>
+
+      
+
+</RelativeLayout>

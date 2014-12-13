@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimage"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pizzaorder.MainActivity$PlaceholderFragment" >
+
+    <com.example.pizzaorder.TransparentPanel
+        android:id="@+id/transparent_panel1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@string/idtvadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollHorizontally="true"
+            android:text="@string/add"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffff" />
+    </com.example.pizzaorder.TransparentPanel>
+
+    <com.example.pizzaorder.TransparentPanel
+        android:id="@+id/transparent_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/transparent_panel1"
+        android:layout_centerInParent="false"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" >
+
+        <LinearLayout
+            android:id="@string/idaddresslayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@string/idstreet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/street"
+                android:inputType="text"
+                android:textColor="#ffff" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@string/idhno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/housenumber"
+                android:inputType="number"
+                android:textColor="#ffff" />
+
+            <EditText
+                android:id="@string/idcity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/city"
+                 android:textColor="#ffff" 
+                android:inputType="text" />
+        </LinearLayout>
+    </com.example.pizzaorder.TransparentPanel>
+
+    <com.example.pizzaorder.TransparentPanel
+        android:id="@+id/transparent_panel2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/transparent_panel"
+        android:layout_centerInParent="false"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@string/idpizzaimg"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:contentDescription="@string/imgdesc"
+                android:src="@drawable/abc_ab_bottom_solid_dark_holo" />
+
+            <ScrollView
+                android:id="@+id/ScrollView01"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp" >
+
+                <TextView
+                    android:id="@string/idtvorder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text=""
+                    android:textColor="#ffff" />
+            </ScrollView>
+        </LinearLayout>
+    </com.example.pizzaorder.TransparentPanel>
+
+   
+
+    <Button
+        android:id="@string/idbtnporder"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/transparent_panel2"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:text="@string/porder" />
+
+</RelativeLayout>

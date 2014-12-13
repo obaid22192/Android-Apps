@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.golfapp.vistex.MainActivity" >
+
+   
+     <item
+        android:id="@+id/action_hole"
+        android:orderInCategory="1"
+        android:title="holes"
+        app:showAsAction="always"/>
+          <item
+        android:id="@+id/action_endround"
+        android:orderInCategory="2"
+        android:title="End Round"
+        app:showAsAction="always"/>
+           <item
+        android:id="@+id/action_score"
+        android:orderInCategory="3"
+        android:title="Score"
+        app:showAsAction="always"/>
+
+</menu>

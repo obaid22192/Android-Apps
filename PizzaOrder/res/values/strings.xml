@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- First Screen -->
+    <string name="app_name">PizzaOrder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome To .....</string>
+    <string name="welcomeimageid">Welcome</string>
+
+    <!-- Secound screen -->
+    <string name="idtvinfo">idtvinfo</string>
+    <string name="secoundscreentext">Welcome To Pizza Ordering App Order In Real Time</string>
+    <string name="idpnlinfo">idpanelinfo</string>
+    <string name="idpnlbtn">idpanelbtn</string>
+    <string name="btnordernow">Order Now</string>
+    <string name="btnhistory">History</string>
+    <string name="idbtnordernow">idbtnorder</string>
+    <string name="idbtnhistory">idbtnhistory</string>
+    <!-- 3rd screen -->
+    <string name="idtvname">idtvname</string>
+    <string name="name">Enter Your Name</string>
+    <string name="idNumber">idnumber</string>
+    <string name="number">Phone number</string>
+    <string name="idbtnnext">idnextbtn</string>
+    <string name="next">Next</string>
+    <!-- 4th screen -->
+    <string name="idscroolview">idsview</string>
+    <string name="idstreet">idstreet</string>
+    <string name="chees">Chees</string>
+    <string name="idchees">idchees</string>
+    <string name="idcheesx">idcheesx</string>
+    <string name="cheesx">2 x chees</string>
+    <string name="idnone">idnone</string>
+    <string name="none">None</string>
+    <string name="idrbsquare">idrbsquare</string>
+    <string name="square">Square</string>
+    <string name="idrbround">idround</string>
+    <string name="round">Round</string>
+    <string name="idtvshape">idtvshape</string>
+    <string name="tvchooseshape">Choose Shape</string>
+    <string name="idpepperoni">idpep</string>
+    <string name="pepperoni">Pepperoni</string>
+    <string name="idmush">idmush</string>
+    <string name="Mush">Mushrooms</string>
+    <string name="idvegg">idvegg</string>
+    <string name="vegg">Veggies</string>
+    <string name="idanch">idanch</string>
+    <string name="anch">Anchovies</string>
+    <string name="idbacon">idbacon</string>
+    <string name="bacon">Bacon Strips</string>
+    <string name="idham">idham</string>
+    <string name="ham">Ham</string>
+      <string name="idgrill">idgrill</string>
+    <string name="grill">Grilled Chiken</string>
+    <string name="iditalian">idita</string>
+    <string name="italian">Italian Sausage</string>
+    <string name="idblackol">idblack</string>
+    <string name="blackol">Black Olives</string>
+    <string name="idgreen">idgreen</string>
+    <string name="green">Green Olives</string>
+    <string name="idplaceorder">idporder</string>
+    <string name="Checkout">Check Out</string>
+    <string name="idtvtopping">idtvtop</string>
+    <string name="tvtoppings">Select Toppings</string>
+    
+    <!-- 4 screeen address -->
+     <string name="idstr">idstreet</string>
+    <string name="street">Street Name</string>
+    <string name="idhno">idhousenumber</string>
+    <string name="housenumber">House number</string>
+    <string name="idcity">idcity</string>
+    <string name="city">City</string>
+    <string name="idaddresslayout" >idaddlayout</string>
+    <string name="idtvadd">idadd</string>
+    <string name="add" >Address</string>
+    
+    
+     <string name="idpizzaimg">idpizzaimg</string>
+    <string name="idtvorder" >idtvorder</string>
+     <string name="imgdesc" >Description</string>
+     <string name="idbtnporder" >idporder</string>
+     <string name="porder" >Place Order</string>
+  
+
+</resources>
